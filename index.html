@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content="width=device-width, initial-scale=1">
+  <title>Bikcraft</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header id="header">
+
+    <div class="header-content">
+      <img class="logo" src="./img/bikcraft.svg" alt="Bikcraft">
+      <nav id="nav">
+
+        <button aria-label="Abrir Menu" on id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="/">Sobre</a> </li>
+          <li><a href="/">Produtos</a> </li>
+          <li><a href="/">lojas</a> </li>
+          <li><a href="/">Contatos</a> </li>
+        </ul>
+      </nav>
+    </div>
+
+    </div>
+    <script src="mobile-navbar.js"></script>
+  </header>
+
+  <main>
+    <article class="conteudo">
+      <div class="introducao" aria-labelledby="label-introducao">
+
+        <h1 id="label-introducao">Bicicletas Feitas a Mão</h1>
+        <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
+        <a class="botao" href="/">Ver Mais</a>
+      </div>
+      <img class="image-main" src="./img/bicicleta.jpg" alt="Bicicleta Bikcraft Preta">
+    </article>
+
+    <article class="conteudo" aria-labelledby="label-vanatagens">
+      <h2 class="subtitulo" id="label-vantagens">Vantagens Bikcraft</h2>
+      <ul class="vantagens">
+        <li class="vantagens-item">
+          <img src="./img/eletrica.svg" alt="">
+          <h3>Motor Elétrico</h3>
+          <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="./img/velocidade.svg" alt="">
+          <h3>40 km/h</h3>
+          <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="./img/rastreador.svg" alt="">
+          <h3>Rastreador</h3>
+          <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <div class="rodape">
+    <footer>
+      <p>Bikcraft. Alguns Direitos Reservados.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
